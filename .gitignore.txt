@@ -1,0 +1,44 @@
+## Visual Studio / C# Ignore Rules
+
+# Thư mục biên dịch (Build output)
+[Bb]in/
+[Oo]bj/
+[LGs]og/
+[Lgs]ogs/
+
+# Thư mục cấu hình cá nhân & cache của Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.cache
+
+# File cấu hình tạm & Publish
+*.NETCore,Version=*.AssemblyAttributes.cs
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vsix
+
+# Package & Lock files
+project.lock.json
+project.assets.json
